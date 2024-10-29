@@ -1,3 +1,8 @@
+## 0.7.0
+
+* Refactor code
+* Update dependencies and libraries to the latest versions
+
 ## 0.6.1
 * Thanks for Alberto-Monteiro
   - refactor code
