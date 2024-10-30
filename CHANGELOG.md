@@ -1,5 +1,11 @@
-## 0.7.1
+## 0.7.2
 
+* refactor(android): improved build and code optimization
+  - Refactored the Android part to enhance the build process.
+  - Fixed warning related to unchecked operations.
+  - Optimized code for better clarity and maintainability.
+
+## 0.7.1
 * Thanks for Andrew-Bekhiet
   - Fix memory leak, upgrade gradle wrapper
 * Thanks for agufagit
@@ -8,7 +14,6 @@
   - Update build.gradle added namespace to support new gradle
 
 ## 0.7.0
-
 * Refactor code
 * Update dependencies and libraries to the latest versions
 

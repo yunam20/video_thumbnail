@@ -34,7 +34,7 @@ add [get_thumbnail_video](https://pub.dev/packages/get_thumbnail_video) as a dep
 
 ```yaml
 dependencies:
-  get_thumbnail_video: ^0.7.1
+  get_thumbnail_video: ^0.7.2
 ```
 
 **import**
