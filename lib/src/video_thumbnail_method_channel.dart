@@ -1,4 +1,5 @@
 import 'package:cross_file/cross_file.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/services.dart';
 import 'package:get_thumbnail_video/src/image_format.dart';
 import 'package:get_thumbnail_video/src/video_thumbnail_platform.dart';
@@ -6,8 +7,8 @@ import 'package:get_thumbnail_video/src/video_thumbnail_platform.dart';
 /// An implementation of [VideoThumbnailPlatform] that uses method channels.
 class MethodChannelVideoThumbnail extends VideoThumbnailPlatform {
   /// The method channel used to interact with the native platform.
-  static const methodChannel =
-      MethodChannel('plugins.rocksti.com/video_thumbnail');
+  @visibleForTesting
+  final methodChannel = const MethodChannel('video_thumbnail');
 
   @override
   Future<XFile> thumbnailFile({

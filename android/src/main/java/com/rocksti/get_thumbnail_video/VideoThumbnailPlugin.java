@@ -41,7 +41,7 @@ public class VideoThumbnailPlugin implements FlutterPlugin, MethodCallHandler {
   public void onAttachedToEngine(@NonNull FlutterPluginBinding binding) {
     context = binding.getApplicationContext();
     executor = Executors.newCachedThreadPool();
-    channel = new MethodChannel(binding.getBinaryMessenger(), "plugins.rocksti.com/video_thumbnail");
+    channel = new MethodChannel(binding.getBinaryMessenger(), "video_thumbnail");
     channel.setMethodCallHandler(this);
   }
 

@@ -1,3 +1,12 @@
+## 0.7.1
+
+* Thanks for Andrew-Bekhiet
+  - Fix memory leak, upgrade gradle wrapper
+* Thanks for agufagit
+  - build(ios): podspec file name and s.name needs to be same as library name
+* Thanks for ettaegbe
+  - Update build.gradle added namespace to support new gradle
+
 ## 0.7.0
 
 * Refactor code
