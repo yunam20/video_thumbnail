@@ -1,3 +1,6 @@
+## Upcoming
+* Relaxed the environment constraints for the plugin to support flutter v3.22.0
+
 ## 0.7.2
 
 * refactor(android): improved build and code optimization
