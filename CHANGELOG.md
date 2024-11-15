@@ -1,4 +1,4 @@
-## Upcoming
+## 0.7.3
 * Relaxed the environment constraints for the plugin to support flutter v3.22.0
 
 ## 0.7.2
